@@ -42,7 +42,7 @@ The user enters the topics for the message to be sent.
 #### Content length selection
 The user chooses the number of lines available by entering an integer.
 
-####Message contents
+#### Message contents
 User enters their message. Each time the user moves to the next line the server will remind them of the number of lines they have remaining.
 
 
