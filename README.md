@@ -3,10 +3,15 @@ University project of a peer-to-peer, asynchronous messaging system  called "Pol
 ---
 ![image description](Images/exampleofinteraction.jpg)
 
-From top to bottom, the first line is the input by the user, it shows the letters "nc" which indicates the start of a new connection. Followed by the local IP address and the port which will be used for the TCP connection, whihc in this instance is "20111"
+##Line by line explanation
 
+###Establishing the connection
+The first line is the input by the user, it shows the letters "nc" which indicates the start of a new connection. Followed by the local IP address and the port which will be used for the TCP connection, whihc in this instance is "20111"
+
+###Protocol and User Identification
 The server then responds with "PROTOCOL?", which the user responds to with the protocol version and username ID.
 
+###"LIST?" request.
 In the following line the user inputs "LIST? 0 0". The term "LIST?" requests a number which represents the total number of messages sent to the user that meet the two following criteria. The "0 0" that follows the term "LIST?" represent a time value in unix time, and the number of topic tags/headers that a message may have been attached with. e.g(#important, #priority).
 
 Some examples of valid LIST? requests:
@@ -15,7 +20,7 @@ LIST?  1614680000 1
 
 LIST?  1620000000 3
 ```
-
+###"LIST?" request response.
 The server then responds to the user by stating the number of messages that have been stored "MESSAGES 9", this is followed by the list of message ID's encrypted using SHA-256. These encrypted ID's will later be used to access those specific messages.
 
 
