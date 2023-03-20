@@ -5,7 +5,7 @@ University project of a peer-to-peer, asynchronous messaging system  called "Pol
 
 ![image description](Images/exampleofinteraction.jpg)
 
-## Line by line explanation
+# Line by line explanation
 
 ### Establishing the connection
 The first line is the input by the user, it shows the letters "nc" which indicates the start of a new connection. Followed by the local IP address and the port which will be used for the TCP connection, whihc in this instance is "20111"
