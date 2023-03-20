@@ -8,8 +8,8 @@ University project of a peer-to-peer, asynchronous messaging system  called "Pol
 
 ![image description](Images/exampleofinteraction.jpg)
 
-![image description](Images/exampleofinteraction part 2.jpg)
+![image description](Images/exampleofinteractionpart 2.jpg)
 
-![image description](Images/exampleofinteraction part 3.jpg)
+![image description](Images/exampleofinteractionpart 3.jpg)
 
 ![image description](Images/Howtorun.jpg)
