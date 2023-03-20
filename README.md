@@ -15,7 +15,13 @@ LIST?  1614680000 1
 
 LIST?  1620000000 3
 ```
+
+The server then responds to the user by stating the number of messages that have been stored "MESSAGES 9", this is followed by the list of message ID's encrypted using SHA-256. These encrypted ID's will later be used to access those specific messages.
+
+
 ---
+
+
 ![image description](Images/exampleofinteractionpart2.jpg)
 
 ![image description](Images/exampleofinteractionpart3.jpg)
