@@ -1,5 +1,5 @@
 # PoliteMessaging
-University project of a peer-to-peer, asynchronous messaging system  called "Polite Messaging", through the use of a TCP server.
+University project of a peer-to-peer, asynchronous messaging system  called "Polite Messaging", through the use of a TCP server written in Java.
 
 ---
 
