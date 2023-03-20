@@ -10,11 +10,11 @@ The server then responds with "PROTOCOL?", which the user responds to with the p
 In the following line the user inputs "LIST? 0 0". The term "LIST?" requests a number which represents the total number of messages sent to the user that meet the two following criteria. The "0 0" that follows the term "LIST?" represent a time value in unix time, and the number of topic tags/headers that a message may have been attached with. e.g(#important, #priority).
 
 Some examples of valid LIST? requests:
-'''
+```
 LIST?  1614680000 1
 
 LIST?  1620000000 3
-'''
+```
 ---
 ![image description](Images/exampleofinteractionpart2.jpg)
 
