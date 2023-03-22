@@ -55,11 +55,3 @@ User enters their message. Each time the user moves to the next line the server 
 ![image description](Images/exampleofinteractionpart2.jpg)
 
 ![image description](Images/exampleofinteractionpart3.jpg)
-
-![image description](Images/Howtorun.jpg)
-
-![image description](Images/doc1.jpg)
-
-![image description](Images/doc2.jpg)
-
-![image description](Images/doc3.jpg)
