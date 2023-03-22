@@ -51,6 +51,7 @@ User enters their message. Each time the user moves to the next line the server 
 
 ---
 
+![image description](Images/exampleofinteraction.jpg)
 
 ![image description](Images/exampleofinteractionpart2.jpg)
 
