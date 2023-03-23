@@ -73,6 +73,9 @@ GET? SHA-256 2f63d9d94ec953481e9a0b40fafb44a7f3bfc5055a2842f18ef4fbc431997333
 After entering the request the server will respond with either "SORRY", indicating that the message requested was not found, or "FOUND".
 If the message is found it will be displayed after listing the details of the sender as well as the tags and contents of the message.
 
-### Below is the rest of the sample communication.
+
 ---
+
+### Below is the rest of the sample communication.
+
 ![image description](Images/exampleofinteractionpart3.jpg)
