@@ -53,5 +53,26 @@ User enters their message. Each time the user moves to the next line the server 
 
 
 ![image description](Images/exampleofinteractionpart2.jpg)
+---
+Explanation starts from the line which contains "TIME?" Request.
+  
+### TIME? Request
+This is a simple request which makes the server return the current time in unix time in the format (NOW [current unix time])
 
+### GET? Request
+This is the request used to read individual messages stored in the system, this is where the previously mentiones encrypted IDs are used.
+A message can be viewed by typing this request followed by "SHA-256" and the message ID
+
+Some examples of valid GET? requests
+```
+GET? SHA-256 e8fbe9c738b1d1d22861d8c858fcca9c04255ccb5b9b15838e3b65f803267afc
+
+GET? SHA-256 2f63d9d94ec953481e9a0b40fafb44a7f3bfc5055a2842f18ef4fbc431997333
+```
+
+After entering the request the server will respond with either "SORRY", indicating that the message requested was not found, or "FOUND".
+If the message is found it will be displayed after listing the details of the sender as well as the tags and contents of the message.
+
+
+---
 ![image description](Images/exampleofinteractionpart3.jpg)
