@@ -76,6 +76,6 @@ If the message is found it will be displayed after listing the details of the se
 
 ---
 
-### Below is the rest of the sample communication.
+### The rest of the sample communication.
 
 ![image description](Images/exampleofinteractionpart3.jpg)
